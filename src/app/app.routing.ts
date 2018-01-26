@@ -27,6 +27,10 @@ export const routes: Routes = [
         loadChildren: './components/components.module#ComponentsModule'
       },
       {
+        path: 'my-dream-team',
+        loadChildren: './my-dream-team/My-dream-team.module#MyDreamTeamModule'
+      },
+      {
         path: 'icons',
         loadChildren: './icons/icons.module#IconsModule'
       },
@@ -54,6 +58,8 @@ export const routes: Routes = [
     ]
   }
 ];
+
+
 
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],

@@ -18,6 +18,7 @@ import { AppRoutingModule } from './app.routing';
 // Layouts
 import { FullLayoutComponent } from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
+import { MyDreamTeamComponent } from './my-dream-team/my-dream-team.component';
 
 @NgModule({
   imports: [
@@ -35,6 +36,7 @@ import { SimpleLayoutComponent } from './layouts/simple-layout.component';
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
     AsideToggleDirective,
+    MyDreamTeamComponent,
   ],
   providers: [{
     provide: LocationStrategy,
